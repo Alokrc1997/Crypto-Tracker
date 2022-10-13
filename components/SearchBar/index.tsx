@@ -2,7 +2,7 @@ import styles from './Search.module.css';
 
 type Props= {
     type: string,
-    placeholder: string
+    placeholder: string,
     onChange: (e:any)=>void
 }
 const SearchBar: React.FC<Props> = ({type,placeholder,onChange}) => {
